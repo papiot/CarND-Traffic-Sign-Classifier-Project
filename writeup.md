@@ -28,6 +28,12 @@ The goals / steps of this project are the following:
 [image7]: ./examples/placeholder.png "Traffic Sign 4"
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
+[image9]: ./DATA/pic1.png "50 km/hr"
+[image10]: ./DATA/pic2.png "Stop sign"
+[image10]: ./DATA/pic3.png "Yield sign"
+[image10]: ./DATA/pic4.png "30 km/hr"
+[image10]: ./DATA/pic5.png "60 km /hr"
+
 ## Rubric Points
 ### Here I will consider the [rubric points](https://review.udacity.com/#!/rubrics/481/view) individually and describe how I addressed each point in my implementation.  
 

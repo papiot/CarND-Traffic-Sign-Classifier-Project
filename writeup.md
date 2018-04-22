@@ -159,18 +159,20 @@ The model was able to correctly guess 3 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
-For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
+For the first image, things are a bit weird actually - it thinks it's a roundabout. This is probably do the image being too clean
+['Roundabout mandatory(66.0)', 'Speed limit (80km/h)(27.0)', 'General caution(-9.0)', 'Speed limit (50km/h)(-17.0)', 'Right-of-way at the next intersection(-29.0)']
 
-| Probability         	|     Prediction	        					| 
-|:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
-| .20     				| U-turn 										|
-| .05					| Yield											|
-| .04	      			| Bumpy Road					 				|
-| .01				    | Slippery Road      							|
+For the second image, the prediction that is a Stop Sign is correct:
+['Stop(67.0)', 'Speed limit (120km/h)(18.0)', 'Speed limit (70km/h)(18.0)', 'Double curve(6.0)', 'Priority road(1.0)']
 
+Third image (Priority road) is also correct:
+['Priority road(89.0)', 'Children crossing(27.0)', 'No vehicles(12.0)', 'Keep right(7.0)', 'Roundabout mandatory(-7.0)']
 
-For the second image ... 
+Fourth Image is also correct (30 km /hr)
+['Speed limit (30km/h)(171.0)', 'Speed limit (50km/h)(63.0)', 'Speed limit (100km/h)(62.0)', 'Keep right(57.0)', 'Speed limit (80km/h)(27.0)']
+
+Fifth image is wrong - it says 60 km /hr, but it thinks it's 50
+['Speed limit (30km/h)(147.0)', 'Speed limit (50km/h)(81.0)', 'Keep right(56.0)', 'Keep left(19.0)', 'Speed limit (100km/h)(16.0)'] 
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
